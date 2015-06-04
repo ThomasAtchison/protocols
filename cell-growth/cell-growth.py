@@ -1,4 +1,4 @@
-# Cell Growth Protocol    Version 0.3.0
+# Cell Growth Protocol    Version 0.4.0
 
 import json
 from autoprotocol.protocol import Protocol
@@ -61,14 +61,14 @@ protocol.distribute(lb_medium_c.well("A1"), measurement_plate.wells_from("E1", 3
 # Step 8 - Cover the growth plate
 protocol.cover(growth_plate, lid="standard")
 
-# Step 9 - Grow new engineered and negative control cells
-protocol.incubate(growth_plate, "warm_37", "5:hour", shaking=True)
-
-# Step 10 - Measure indirectly cell concentrations
+# Step 9 - Measure indirectly cell concentrations
 protocol.absorbance(measurement_plate, ["A1", "A2", "A3", "C1", "C2", "C3", "E1", "E2", "E3",], "600:nanometer","Before Incubation")
 
-# Step 11 - Cover the measurement plate
+# Step 10 - Cover the measurement plate
 protocol.cover(measurement_plate, lid="standard")
+
+# Step 11 - Grow new engineered and negative control cells
+protocol.incubate(growth_plate, "warm_37", "5:hour", shaking=True)
 
 # Step 12 - Store the measurement plate in the fridge
 # This step is being run in series instead of parallel.  Will uncomment it when it runs in parallel.
