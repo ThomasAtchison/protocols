@@ -1,9 +1,6 @@
 # Expresso configuration folder
 Protocols.esproj/
 
-# Protocol under development.  I’ll remove this line when I release the protocol.
-threshold-measurement/
-
 # Mac OS
 .DS_Store
 
