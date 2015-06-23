@@ -78863,7 +78863,7 @@ Version 0.3.x}</string>
 		<key>ExpandedCanvases</key>
 		<array/>
 		<key>Frame</key>
-		<string>{{0, 49}, {1440, 828}}</string>
+		<string>{{0, 50}, {1440, 827}}</string>
 		<key>ListView</key>
 		<true/>
 		<key>OutlineWidth</key>
@@ -78877,15 +78877,15 @@ Version 0.3.x}</string>
 		<key>SidebarWidth</key>
 		<integer>184</integer>
 		<key>VisibleRegion</key>
-		<string>{{3239.1304459749113, -200}, {1798.5507308522888, 994.2029019860355}}</string>
+		<string>{{1392.6605078118721, -17}, {1138.5320752269652, 628.44034772801865}}</string>
 		<key>Zoom</key>
-		<real>0.68999999761581421</real>
+		<real>1.0900000333786011</real>
 		<key>ZoomValues</key>
 		<array>
 			<array>
 				<string>Cell Growth Protocol 0.3.x</string>
-				<real>0.68999999761581421</real>
-				<real>0.69999998807907104</real>
+				<real>1.0900000333786011</real>
+				<real>1.0399999618530273</real>
 			</array>
 		</array>
 	</dict>

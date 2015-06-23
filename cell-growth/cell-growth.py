@@ -1,4 +1,10 @@
 # Cell Growth Protocol    Version 0.4.0
+#
+# A protocol for growing fresh cultures of engineered cells before measuring performance.
+# 
+# Developed by Cesar A. Rodriguez
+#
+
 
 import json
 from autoprotocol.protocol import Protocol
